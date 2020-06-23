@@ -1,1 +1,24 @@
-﻿<h6>Summary Articles</h6>
+﻿@using AuthoringTagHelpers.Data;
+@inject IDataReader dataReader;
+@{
+    ViewData["Title"] = "Summary Page";
+}
+@{
+    List<Article> articles = dataReader.ReadArticles();
+}
+
+
+<h6>Summary Articles</h6>
+
+<div>
+    <h3>View Component Use</h3>
+    <br />
+    <div class="container" style="max-width:1000px">
+        <article-track track-name="Condensed Matter">
+            @for (int i = 0; i < 200; i++)
+            {
+                <vc:article-card article="@articles[i]"></vc:article-card>
+            }
+        </article-track>
+    </div>
+</div>

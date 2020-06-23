@@ -7,7 +7,7 @@ namespace AuthoringTagHelpers.Data
 {
     public class DataReader : IDataReader
     {
-        private readonly string articlesPath = @"tagHelper.Basic.MVC.Data.Articles.json";
+        private readonly string articlesPath = @"AuthoringTagHelpers.Data.Articles.json";
 
 
 

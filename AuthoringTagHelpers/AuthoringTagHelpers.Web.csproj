@@ -6,7 +6,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AuthoringTagHelpers.Data\AuthoringTagHelpers.Data.csproj" />
-    <ProjectReference Include="..\TagHelpers.Lib\TagHelpers.Lib.csproj" />
+    <ProjectReference Include="..\TagHelpers.Lib\TagHelpersLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\static\icons\" />
   </ItemGroup>
 
 </Project>

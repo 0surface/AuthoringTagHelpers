@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthoringTagHelpers.Web", "AuthoringTagHelpers\AuthoringTagHelpers.Web.csproj", "{C0DBF8E4-F8D7-4F00-A56D-37A882EA0539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelpers.Lib", "TagHelpers.Lib\TagHelpers.Lib.csproj", "{8897D6EB-C0D3-4590-B0B5-38025506AD01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelpersLib", "TagHelpers.Lib\TagHelpersLib.csproj", "{8897D6EB-C0D3-4590-B0B5-38025506AD01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthoringTagHelpers.Data", "AuthoringTagHelpers.Data\AuthoringTagHelpers.Data.csproj", "{7D2AB08E-1809-488B-BD50-966BB4887FA9}"
 EndProject
