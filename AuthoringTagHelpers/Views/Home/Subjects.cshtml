@@ -1,0 +1,18 @@
+﻿@using AuthoringTagHelpers.Data;
+@inject IDataReader dataReader;
+
+@{
+    ViewData["Title"] = "Subjects";
+}
+@{
+    List<Subject> subjects = dataReader.ReadSubjects();
+}
+@{
+    var test = @subjects[0].Code;
+}
+<div class="container">
+    @foreach (var subject in subjects)
+    {
+        <div>@subject.Name</div>
+    }
+</div>

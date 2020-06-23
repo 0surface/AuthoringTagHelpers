@@ -32,6 +32,12 @@ namespace AuthoringTagHelpers.Controllers
         {
             return View();
         }
+
+        public IActionResult Subjects()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
