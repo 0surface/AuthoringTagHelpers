@@ -7,6 +7,5 @@
         public string GroupCode { get;  set; }
         public string GroupName { get;  set; }
         public string Discipline { get;  set; }
-
     }
 }
