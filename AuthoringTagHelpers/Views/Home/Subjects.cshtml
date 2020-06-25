@@ -11,8 +11,10 @@
     var test = @subjects[0].Code;
 }
     <div class="container">
-        @for (int i = 0; i < subjects.Count; i++)
-        {
-           <subject-card subject=" @subjects[i]"></subject-card>       
-        }
+        <arx-Subject-track style="max-width:500px">
+            @for (int i = 0; i < subjects.Count; i++)
+            {
+                <subject-card subject=" @subjects[i]"></subject-card>
+            }
+        </arx-Subject-track>
     </div>
